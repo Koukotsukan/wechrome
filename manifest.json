@@ -1,5 +1,5 @@
 {
-  "name": "WeChrome",
+  "name": "WeFirefox",
   "version": "1.0",
   "description": "Unblock web version of WeChat",
   "permissions": [
@@ -12,7 +12,7 @@
   ],
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["WeFirefox.js"]
   },
   "icons": {
     "16": "images/get_started16.png",
