@@ -1,6 +1,6 @@
 # WeFirefox
 
-A Firefox extension to unblock Web Version of WeChat. (Modified from ![adamyi/WeChrome](https://github.com/adamyi/wechrome) by ![@Koukotsukan](https://github.com/Koukotsukan))
+A Firefox extension to unblock Web Version of WeChat. (Modified from [adamyi/WeChrome](https://github.com/adamyi/wechrome) by [@Koukotsukan](https://github.com/Koukotsukan))
 
 Tired of Tencent for not providing Linux version of WeChat? Run into the following error while logging into web version of WeChat?
 
