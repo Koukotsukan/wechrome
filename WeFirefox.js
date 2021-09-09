@@ -6,7 +6,7 @@ let wechatHeaders = {
 
 let wechatUrls = ["https://wx.qq.com/*", "https://web.wechat.com/*", "https://wx2.qq.com/*"];
 
-chrome.webRequest.onBeforeRequest.addListener(
+browser.webRequest.onBeforeRequest.addListener(
   function (details) {
     let url = new URL(details.url);
     if (url.pathname == "/" && url.search.indexOf("target=t") == -1) {
@@ -24,7 +24,7 @@ chrome.webRequest.onBeforeRequest.addListener(
   ["blocking"]
 );
 
-chrome.webRequest.onBeforeSendHeaders.addListener(
+browser.webRequest.onBeforeSendHeaders.addListener(
   function (details) {
     let url = new URL(details.url);
     if (url.pathname == "/cgi-bin/mmwebwx-bin/webwxnewloginpage") {
